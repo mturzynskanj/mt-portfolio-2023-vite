@@ -11,11 +11,15 @@ const AboutThisPage = () =>
                 1. Vitejs - dev server that serves source files over native ES modules, with rich built-in features and fast Hot Module Replacement (HMR).    
             </li>
 
-            <li>2. React, Redux, React Router v4, Firebase
+            <li>2. React, React Hooks, React Router v6
                 <p>
                 This website is implemented as a Single Page Application. <br />
-                Database of the projects is stored as JSON in the Firebease Realtime Database  <br /> 
-                Routing of this applications is manged with React Router v4
+                Database of the projects is stored as JSON in the Firebease Firestore DB  <br /> 
+                Routing of this applications is manged with React Router v6
+                Only Administrator of this application can access Profile page.
+                The authentication of the Admin is based on email and password. 
+                After Sign In, the Admin can edit/add projects that are listed in the Porfolio page.
+                Admin creadentail are stored in Firebase Firestore DB users collection
                 </p>
             </li>
 
@@ -28,8 +32,8 @@ const AboutThisPage = () =>
 
                 </p>
             </li>
-
-            <li>3. Font Awesome Library</li>
+            <li>3. Material UI </li>
+            <li>4. Font Awesome Library</li>
         </ul>
         </section>
 

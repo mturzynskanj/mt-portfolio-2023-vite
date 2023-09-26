@@ -23,7 +23,7 @@ const ProjectItem = ({
   id,
   name,
   url,
-  banner,
+  image,
 }) => {
   const [isChildVisible, setIsChildVisible] = useState(false);
   const handleClick = (event) => {
@@ -62,7 +62,7 @@ const ProjectItem = ({
               {isChildVisible ? "Hide Details" : "Show Details"}
             </button>
           </div>
-          <img src={LAarchitect}  />
+          <img src={image}  />
         </li>
       </ul>
     </li>

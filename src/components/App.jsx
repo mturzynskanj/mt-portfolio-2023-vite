@@ -34,10 +34,10 @@ const router = createBrowserRouter(
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/signIn" element={<SignIn />} />
         <Route path="/signUp" element={<SignUp />} />
-        <Route path='/profile' element={<Profile />} />
-        {/* <Route path="/profile" element={<PrivateRoute />} >
+        {/* <Route path='/profile' element={<Profile />} /> */}
+        <Route path="/profile" element={<PrivateRoute />} >
           <Route path="/profile" element={<Profile />} />
-        </Route> */}
+        </Route>
         <Route path="/forgotPassword" element={<ForgotPassword />} />
         <Route path="/addNewProject" element={<AddNewProject />} />
       </Route>
