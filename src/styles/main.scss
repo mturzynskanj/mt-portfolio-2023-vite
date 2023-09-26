@@ -166,6 +166,7 @@ header {
             line-height:120%;
             color:#333;
             font-family: 'Source Sans Pro', sans-serif;
+            font-size: 16px;
         }
     }
 
@@ -277,8 +278,9 @@ footer {
     }
 
     strong, .strong {
-        font-weight :300;
+        font-weight :bold;
         letter-spacing:2px;
+        background: $highlight-txt;
         }
     
     .spinning-nav {

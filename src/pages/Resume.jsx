@@ -26,25 +26,22 @@ const  Resume = ()=> {
         <section className="panel extra-spacing ">
             <h3>TECHNICAL SKILLS</h3>
             <p><strong>Programming Languages and Libraries:</strong><br />
-                XHTML/HTML5, CSS3, Less Css, Sass, Bootstrap, Bootstrap-Responsive DOM<br />
-                Object Oriented JavaScript, Ajax, Json <br />
-                Backbone MVC framework,Lodash.js, Node.js NPM,<br />
+                Javascript, React.js, React Query, Redux.js, React Router 6, Rxjs, Npm, Node.js, Next.js, Ag-grid<br />
+                CSS3, Flexbox, Sass, JSS, Material UI <br ></br>
                 D3.js<br />
-                React.js, Redux.js, React Router 4, Rxjs, NPM<br />
-                Flexbox, Material UI
             </p>
 
             <p><strong>Application Build and Task Tools:</strong><br />
-                Gulp, Grunt, Webpack
+                Webpack, Jenkins, Github
             </p>
             <p ><strong>Operating Systems:</strong><br />Windows, Mac Os</p>
-<p ><strong>Software:</strong><br />Visual Studio Code, Source Tree, Charles Web Debugging Proxy</p>
+<p ><strong>Software:</strong><br />Visual Studio Code, Charles Web Debugging Proxy, Postman</p>
  
        
         
         <section className="panel">
             <h3>EDUCATION</h3>
-            <p>Masters in Computer Science, Lehman College, NY, GPA(3.95)</p>
+            <p>Masters in Computer Science, Lehman College, New York</p>
             <p> Bachelors of Engineering, Polytechnic University of Gdansk, Poland</p>
         </section>
         <section className="panel">
