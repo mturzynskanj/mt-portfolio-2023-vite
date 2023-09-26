@@ -32,6 +32,11 @@ const Navigation = () => (
                 <span>&#123;</span>Portfolio<span>&#125;</span>
               </NavLink>
             </li>
+            <li>
+              <NavLink to="/profile">
+                <span>&#123;</span>Profile<span>&#125;</span>
+              </NavLink>
+            </li>
           </ul>
         </div>
       </section>

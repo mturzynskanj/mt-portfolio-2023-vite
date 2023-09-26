@@ -20,7 +20,7 @@ export default [
         "visible": true,
         "name": "Barbara Lewandowska Architect",
         "url": "N/A worked on internal application",
-        "banner":"LA-architect.png",
+        "banner":"LAarchitect.png",
         "information": " Responsive Design, Flexbox, css3 Animation, OwlCarousel Plugin, Jquery, SEO ",
         "client": [
             {
@@ -35,7 +35,7 @@ export default [
         "visible": true,
         "name": "Webmd TV",
         "url": "https://www.webmd.com/bipolar-disorder/bipolar-life-17/",
-        "banner":"webmd-tv-index.png",
+        "banner":"webmdTvindex.png",
         "information": "Akamai Media Platform, Responsive Design, Page Builder CMS, Object Oriented Javascript, RequireJs, UnderscoreJs, Sass, Confluence",
         "client": [
             {
@@ -50,7 +50,7 @@ export default [
         "visible": true,
         "name": "WebMD Quizes",
         "url": "https://www.webmd.com/diet/rm-quiz-nutrition-iq",
-        "banner":"webmd-quiz.png",
+        "banner":"webmdQuiz.png",
         "information": " Responsive Design, Page Builder CMS, Object Oriented Javascript, RequireJs, UnderscoreJs, Sass, Grunt, Node NPM, Handlebars",
         "client": [
             {
@@ -64,7 +64,7 @@ export default [
         "visible": true,
         "name": "WebMD - The cutting edge of cancer with Robin Roberts",
         "url": "https://www.webmd.com/cancer/cutting-edge-16/video-cancer-survivors-robin-roberts",
-        "banner":"WebMD-RR.png",
+        "banner":"WebMDRR.png",
         "information": "Akamai Media Platform, Responsive Design, Page Builder CMS, Object Oriented Javascript, RequireJs, UnderscoreJs, Sass, Node NPM, Handlebars",
         "client": [
             {

@@ -1,0 +1,46 @@
+@import "variables";
+@import "mixins";
+
+button {
+    background: none repeat scroll 0 0 $active-btn;
+    @include border-radius(5px);
+    color: #fff;
+    opacity: 0.9;
+    border: none;
+    line-height: 16px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.flexContainerSb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.helperTxt {
+    font-size: 14px;
+    color: $helper-txt-color;
+}
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+.outlineBtn {
+    border: 1px solid $bkg-main-light ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 4px 24px;
+    border-radius: 5px;
+
+}
+
