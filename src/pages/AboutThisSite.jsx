@@ -18,8 +18,8 @@ const AboutThisPage = () =>
                 Routing of this applications is manged with React Router v6
                 Only Administrator of this application can access Profile page.
                 The authentication of the Admin is based on email and password. 
-                After Sign In, the Admin can edit/add projects that are listed in the Porfolio page.
-                Admin creadentail are stored in Firebase Firestore DB users collection
+                Only Admin can edit/add projects that are listed in the Porfolio page.
+                Admin credentials are stored in Firebase Firestore DB users collection.
                 </p>
             </li>
 
