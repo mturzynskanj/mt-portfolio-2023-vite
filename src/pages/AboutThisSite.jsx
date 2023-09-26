@@ -14,11 +14,11 @@ const AboutThisPage = () =>
             <li>2. React, React Hooks, React Router v6
                 <p>
                 This website is implemented as a Single Page Application. <br />
-                Database of the projects is stored as JSON in the Firebease Firestore DB  <br /> 
-                Routing of this applications is manged with React Router v6
-                Only Administrator of this application can access Profile page.
-                The authentication of the Admin is based on email and password. 
-                Only Admin can edit/add projects that are listed in the Porfolio page.
+                Projects data is stored as JSON in the Firebease Firestore DB  <br /> 
+                Routing of this applications is managed with React Router v6. <br />
+                Only Admin of this application can access Profile page. <br />
+                From the Profile page, the Admin can edit/add projects that are listed in the Porfolio page. <br />
+                The authentication of the Admin is based on email and password. <br />
                 Admin credentials are stored in Firebase Firestore DB users collection.
                 </p>
             </li>
