@@ -24,13 +24,11 @@ const AboutMe =() =>
                 I like the visual aspect of developing UI and I am obsessed with clean, consistend and intuitive interfaces. 
             </p>
             <p>
-                I helped  shape design decisions related to performance while accounting for the needs of end users and businesses.
+                I helped shape design decisions related to performance while accounting for the needs of end users and businesses.
                 I would always take on the initiative to research multiple UI options and put forth the best technical solution that simplified the user’s workflow.
-                <br />
-                I am strong advocate for development best practices including progressive enhancement, accessibility, performance, scalability, and maintainability.
             </p>
                 <li><strong>Hobbies</strong>
-                    <p> Gardening - I converted 'a boring lawn only backyard' to an oasis for many birds and butterflies.</p>
+                    <p> Gardening - I transformed a lawn only backyard to an oasis for many birds and butterflies.</p>
                     <div className='flex-container'>
                         <div className="flex-item"><img src={backyard_2023} alt="c" /></div>
                         <div className="flex-item"><img src={spring_backyard_2022} alt="c" /></div>
