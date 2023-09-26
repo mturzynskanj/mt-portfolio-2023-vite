@@ -118,6 +118,10 @@ header {
         background-color:#fff;
         margin-top: 15px;    
         color:$txt-base-color;
+        strong {
+            background-color: $highlight-txt;
+            font-weight: bold;
+        }
     }
 } // end of the main content
 
@@ -278,9 +282,8 @@ footer {
     }
 
     strong, .strong {
-        font-weight :bold;
+        font-weight :300;
         letter-spacing:2px;
-        background: $highlight-txt;
         }
     
     .spinning-nav {
