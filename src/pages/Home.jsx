@@ -25,9 +25,9 @@ const LandingPage = () => {
         <div className="spinner-block">
           <div className="icon-wrap">
             <NavLink className="effect-opacity" to="/aboutMe">
-              <a className="effect-opacity effect-spin" href="aboutMe">
+              <div className="effect-spin">
                 <i className="fa fa-user"></i>
-              </a>
+              </div>
               <div className="md-txt">
                 About Me <i className="fa fa-caret-right"></i>
               </div>
@@ -37,9 +37,9 @@ const LandingPage = () => {
         <div className="spinner-block">
           <div className="icon-wrap">
             <NavLink className="effect-opacity" to="/resume">
-              <a className="effect-opacity effect-spin" href="myResume">
+              <div className="effect-spin">
                 <i className="fa fa-thumbs-o-up"></i>
-              </a>
+              </div>
               <div className="md-txt">
                 {" "}
                 My Resume <i className="fa fa-caret-right"></i>
@@ -50,9 +50,9 @@ const LandingPage = () => {
         <div className="spinner-block">
           <div className="icon-wrap">
             <NavLink className="effect-opacity" to="/portfolio">
-              <a className="effect-opacity effect-spin" href="portfolio">
+              <div className="effect-spin">
                 <i className="fa fa-gears"></i>
-              </a>
+              </div>
               <div className="md-txt">
                 {" "}
                 My Portfolio <i className="fa fa-caret-right"></i>

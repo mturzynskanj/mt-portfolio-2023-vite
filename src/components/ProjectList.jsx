@@ -24,6 +24,7 @@ const ProjectList = () => {
             data: doc.data(),
           });
         });
+        console.log('what are projects ????', projects)
         setProjects(projects);
         setLoading(false);
       } catch (e) {

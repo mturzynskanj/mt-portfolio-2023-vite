@@ -48,7 +48,7 @@ const Profile = () => {
       style={{maxWidth: '500px'}}
     >
       <h2 className="flexContainerSb">
-        Profile{" "}
+        Profile !!!
         <button type="button" onClick={onLogout}>
           Sign Out
         </button>
