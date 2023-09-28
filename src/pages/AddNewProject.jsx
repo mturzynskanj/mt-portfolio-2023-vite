@@ -119,23 +119,23 @@ const AddNewProject = () => {
 
   return (
     <section className="page">
-      <h2>Add New Project !!</h2>
+      <h2>Add New Project </h2>
       <form onSubmit={onSubmit}>
         <Grid container spacing={2}>
           <Grid item>
             <CustomInput
               name="name"
-              label={"Project Name"}
+              label={"Company Name"}
               handleChange={handleChange}
             />
           </Grid>
           <Grid item>
-            <CustomInput name="url" label={"url"} handleChange={handleChange} />
+            <CustomInput name="url" label={'Company Logo'} handleChange={handleChange} />
           </Grid>
           <Grid item>
             <CustomTextArea
               name="information"
-              label={Math.random()}
+              label={'My Role in this company'}
               handleChange={handleChange}
             />
           </Grid>
